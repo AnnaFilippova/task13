@@ -31,7 +31,7 @@
   </form>
   <h1>Спиок литературы</h1>
   <?php
-  $pdo = new PDO("mysql:host=localhost; dbname=task13;charset=utf8", "root", "");
+  $pdo = new PDO("mysql:host=localhost; dbname=global;charset=utf8", "filippova", "neto0936");
 
  if($_POST['description']){
    $insert_sql = "INSERT into tasks (description) values ('".$_POST['description']."')";
